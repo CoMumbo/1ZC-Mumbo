@@ -7,3 +7,4 @@ Bootcamp labs — problem statements, starter files, and my solutions.
 | # | Lab | Status |
 |---|-----|--------|
 | 1 | [Analyze a News Article](./Analyze-News-Article) | Done |
+| 2 | [Network Security with Python](./Network-Security-Python) | Done |
