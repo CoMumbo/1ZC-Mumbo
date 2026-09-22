@@ -1,0 +1,37 @@
+Lab: Threat Intelligence with AlienVault OTX
+
+Steps:
+
+Step 1: Collecting Threat Data
+Step 2: Analyzing and Processing Data
+Step 3: Contextualizing and Prioritizing Data
+Step 4: Integrating with Security Operations
+
+Step 1: Collecting Threat Data
+- Open the provided otx_starter.py in VS Code.
+- Rename your file otx.py and then save.
+- Add a temporary if __name__ == '__main__' block to test the
+  fetch_threat_intelligence function.
+
+Create a new function, parse_threat_intelligence, below the
+fetch_threat_intelligence function.
+This function should do the following:
+- Validate the retrieved data.
+- Extract key details, such as pulse names, tags, and indicators.
+- Display the information in a human-readable format.
+
+Next, update the if __name__ == '__main__' block to call
+parse_threat_intelligence.
+
+Enhance the parse_threat_intelligence function to:
+- Flag high-priority threats based on tags, such as "ransomware"
+  or "phishing."
+- Add a priority field to the displayed output, categorizing
+  threats as "HIGH" or "LOW."
+
+Update the parse_threat_intelligence function to export the
+prioritized data to a text file:
+- Write the extracted and prioritized information into a file
+  named otx_intelligence_report.txt.
+
+Deliverable: otx.py

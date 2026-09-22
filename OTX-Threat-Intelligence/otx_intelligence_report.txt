@@ -1,0 +1,18 @@
+OTX THREAT INTELLIGENCE REPORT
+========================================
+
+[HIGH] APT29 Cozy Bear Campaign
+  Tags       : apt, russia, malware
+  Indicators : 3
+
+[HIGH] Phishing Kit Targeting Banks
+  Tags       : phishing, credential-harvesting
+  Indicators : 2
+
+[LOW] Generic Newsletter Spam
+  Tags       : spam
+  Indicators : 1
+
+[HIGH] LockBit Ransomware Variant
+  Tags       : RansomWare, extortion
+  Indicators : 4
